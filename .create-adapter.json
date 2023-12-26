@@ -1,0 +1,38 @@
+{
+	"expert": "no",
+	"cli": false,
+	"adapterName": "statistics-24h",
+	"title": "Statistics over 24h",
+	"description": "Collects min and max values of the last 24h",
+	"keywords": [
+		"statistics",
+		"24h",
+		"min and max"
+	],
+	"contributors": "",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "logic",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"adapterSettings": [],
+	"language": "JavaScript",
+	"adminUi": "json",
+	"releaseScript": "yes",
+	"indentation": "Tab",
+	"quotes": "double",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"authorName": "gerhstic",
+	"authorGithub": "gerhstic",
+	"authorEmail": "gerhard.stich57@googlemail.com",
+	"license": "MIT License",
+	"target": "github",
+	"creatorVersion": "2.3.0"
+}

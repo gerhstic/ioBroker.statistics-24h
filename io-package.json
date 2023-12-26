@@ -1,0 +1,82 @@
+{
+	"common": {
+		"name": "statistics-24h",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Statistics over 24h",
+		"titleLang": {
+			"en": "Statistics over 24h",
+			"de": "Statistics over 24h",
+			"ru": "Statistics over 24h",
+			"pt": "Statistics over 24h",
+			"nl": "Statistics over 24h",
+			"fr": "Statistics over 24h",
+			"it": "Statistics over 24h",
+			"es": "Statistics over 24h",
+			"pl": "Statistics over 24h",
+			"zh-cn": "Statistics over 24h"
+		},
+		"desc": {
+			"en": "Collects min and max values of the last 24h",
+			"de": "Collects min and max values of the last 24h",
+			"ru": "Collects min and max values of the last 24h",
+			"pt": "Collects min and max values of the last 24h",
+			"nl": "Collects min and max values of the last 24h",
+			"fr": "Collects min and max values of the last 24h",
+			"it": "Collects min and max values of the last 24h",
+			"es": "Collects min and max values of the last 24h",
+			"pl": "Collects min and max values of the last 24h",
+			"zh-cn": "Collects min and max values of the last 24h"
+		},
+		"authors": [
+			"gerhstic <gerhard.stich57@googlemail.com>"
+		],
+		"keywords": [
+			"statistics",
+			"24h",
+			"min and max"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "statistics-24h.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/gerhstic/ioBroker.statistics-24h/main/admin/statistics-24h.png",
+		"readme": "https://github.com/gerhstic/ioBroker.statistics-24h/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "logic",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=3.3.22"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=5.1.13"
+			}
+		]
+	},
+	"native": {},
+	"objects": [],
+	"instanceObjects": []
+}
